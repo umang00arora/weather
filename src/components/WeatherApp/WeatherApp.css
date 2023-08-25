@@ -1,0 +1,157 @@
+.container{
+    width: 40vw;
+    height: 90vh;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 12px;
+    background: #130754;
+    
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 40px;
+}
+.top-bar input{
+    display: flex;
+    width: 30vw;
+    height: 10vh;
+    background: #eef4f3;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    background: #eef4f3;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.weather-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30vh;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.data-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data{
+    font-size: 34px;
+    font-weight: 100;
+
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.icon{
+    margin-top: 10px;
+}
+.err-msg{
+    display: flex;
+    justify-content: center;
+    color: red;
+    height: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 82vw;
+    }
+    .top-bar input{
+        display: flex;
+        width: 52vw;
+        height: 10vh;
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .top-bar{
+        padding-left: 6px;
+        gap: 8px;
+        padding-right: 6px;
+    }
+    .search-icon{
+        width: 10vh;
+        height: 10vh;
+    }
+    .weather-image{
+        margin-top: 10px;
+        height: 30vh;
+    }
+    
+    .weather-temp{
+        font-size: 60px;
+        font-weight: 400;
+    }
+    
+    .weather-location{
+        
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .data-container{
+        margin-top: 70px;
+    }
+    
+    .element{
+        gap: 6px;
+    }
+    
+    .data{
+        font-size: 20px;
+        font-weight: 100;
+    
+    }
+    
+    .text{
+        font-size: 15px;
+        font-weight: 100;
+    }
+    
+    .icon{
+        margin-top: 10px;
+    }
+  }
